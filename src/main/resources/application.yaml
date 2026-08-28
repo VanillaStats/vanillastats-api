@@ -9,3 +9,7 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: ${JWK_SET_URI}
+
+  jpa:
+    hibernate:
+      ddl-auto: none
